@@ -1,0 +1,14 @@
+D:\GIT_work\Examples\Examples001_HelloConsole\bin\Debug\net7.0\Examples001_HelloConsole.exe
+D:\GIT_work\Examples\Examples001_HelloConsole\bin\Debug\net7.0\Examples001_HelloConsole.deps.json
+D:\GIT_work\Examples\Examples001_HelloConsole\bin\Debug\net7.0\Examples001_HelloConsole.runtimeconfig.json
+D:\GIT_work\Examples\Examples001_HelloConsole\bin\Debug\net7.0\Examples001_HelloConsole.dll
+D:\GIT_work\Examples\Examples001_HelloConsole\bin\Debug\net7.0\Examples001_HelloConsole.pdb
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.AssemblyInfoInputs.cache
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.AssemblyInfo.cs
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.csproj.CoreCompileInputs.cache
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.dll
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\refint\Examples001_HelloConsole.dll
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.pdb
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\Examples001_HelloConsole.genruntimeconfig.cache
+D:\GIT_work\Examples\Examples001_HelloConsole\obj\Debug\net7.0\ref\Examples001_HelloConsole.dll
