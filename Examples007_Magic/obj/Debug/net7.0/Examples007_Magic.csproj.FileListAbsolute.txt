@@ -1,0 +1,14 @@
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.AssemblyInfoInputs.cache
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.AssemblyInfo.cs
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.csproj.CoreCompileInputs.cache
+D:\GIT_work\Examples\Examples007_Magic\bin\Debug\net7.0\Examples007_Magic.exe
+D:\GIT_work\Examples\Examples007_Magic\bin\Debug\net7.0\Examples007_Magic.deps.json
+D:\GIT_work\Examples\Examples007_Magic\bin\Debug\net7.0\Examples007_Magic.runtimeconfig.json
+D:\GIT_work\Examples\Examples007_Magic\bin\Debug\net7.0\Examples007_Magic.dll
+D:\GIT_work\Examples\Examples007_Magic\bin\Debug\net7.0\Examples007_Magic.pdb
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.dll
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\refint\Examples007_Magic.dll
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.pdb
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\Examples007_Magic.genruntimeconfig.cache
+D:\GIT_work\Examples\Examples007_Magic\obj\Debug\net7.0\ref\Examples007_Magic.dll
