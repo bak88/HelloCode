@@ -1,0 +1,14 @@
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.AssemblyInfoInputs.cache
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.AssemblyInfo.cs
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.csproj.CoreCompileInputs.cache
+D:\GIT_work\Examples\Examples004_Div\bin\Debug\net7.0\Examples004_Div.exe
+D:\GIT_work\Examples\Examples004_Div\bin\Debug\net7.0\Examples004_Div.deps.json
+D:\GIT_work\Examples\Examples004_Div\bin\Debug\net7.0\Examples004_Div.runtimeconfig.json
+D:\GIT_work\Examples\Examples004_Div\bin\Debug\net7.0\Examples004_Div.dll
+D:\GIT_work\Examples\Examples004_Div\bin\Debug\net7.0\Examples004_Div.pdb
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.dll
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\refint\Examples004_Div.dll
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.pdb
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.genruntimeconfig.cache
+D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\ref\Examples004_Div.dll
