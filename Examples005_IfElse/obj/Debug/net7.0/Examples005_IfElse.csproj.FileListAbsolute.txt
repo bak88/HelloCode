@@ -1,0 +1,14 @@
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.AssemblyInfoInputs.cache
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.AssemblyInfo.cs
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.csproj.CoreCompileInputs.cache
+D:\GIT_work\Examples\Examples005_IfElse\bin\Debug\net7.0\Examples005_IfElse.exe
+D:\GIT_work\Examples\Examples005_IfElse\bin\Debug\net7.0\Examples005_IfElse.deps.json
+D:\GIT_work\Examples\Examples005_IfElse\bin\Debug\net7.0\Examples005_IfElse.runtimeconfig.json
+D:\GIT_work\Examples\Examples005_IfElse\bin\Debug\net7.0\Examples005_IfElse.dll
+D:\GIT_work\Examples\Examples005_IfElse\bin\Debug\net7.0\Examples005_IfElse.pdb
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.dll
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\refint\Examples005_IfElse.dll
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.pdb
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\Examples005_IfElse.genruntimeconfig.cache
+D:\GIT_work\Examples\Examples005_IfElse\obj\Debug\net7.0\ref\Examples005_IfElse.dll
