@@ -1,5 +1,5 @@
 ﻿int count = 0;
-int distance = 100000;
+int distance = 100;
 int firstFriendSpeed = 1;
 int secondFriendspeed = 2;
 int dogSpeed = 5;
