@@ -30,19 +30,19 @@
 // }
 // if (x > 0 && y > 0)
 // {
-//     System.Console.WriteLine("Координаты принадлеат 1ой четверти");
+//     System.Console.WriteLine("Координаты принадлежат 1ой четверти");
 // }
 // else if (x < 0 && y > 0)
 // {
-//     System.Console.WriteLine("Координаты принадлеат 2ой четверти");
+//     System.Console.WriteLine("Координаты принадлежат 2ой четверти");
 // }
 // else if (x < 0 && y < 0)
 // {
-//     System.Console.WriteLine("Координаты принадлеат 3ей четверти");
+//     System.Console.WriteLine("Координаты принадлежат 3ей четверти");
 // }
 // else if (x > 0 && y < 0)
 // {
-//     System.Console.WriteLine("Координаты принадлеат 4ой четверти");
+//     System.Console.WriteLine("Координаты принадлежат 4ой четверти");
 // }
 
 // //Задача 3
