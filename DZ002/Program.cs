@@ -1,4 +1,5 @@
-﻿// Задача 1
+﻿// //Задача 1
+
 
 // Console.Clear();
 // System.Console.WriteLine("Введите число");
@@ -13,7 +14,8 @@
 //     System.Console.WriteLine($"Нет, {firstNumber} не кратно");
 // }
 
-// Задача 2
+
+// //Задача 2
 // Console.Clear();
 // System.Console.WriteLine("Введите координату х: ");
 // int x = int.Parse(Console.ReadLine()!);
@@ -45,6 +47,7 @@
 //     System.Console.WriteLine("Координаты принадлеат 4ой четверти");
 // }
 
+
 // //Задача 3
 // Console.Clear();
 // System.Console.WriteLine("Введите число от 10 до 99");
@@ -70,4 +73,34 @@
 //     System.Console.WriteLine(n2);
 //  }
 
-// Задача 4
+
+// // Задача 4 Подсмотрел в ответе
+// Console.Clear();
+// System.Console.WriteLine("Введите натурально число");
+// int n = int.Parse(Console.ReadLine()!);
+
+// while (n <= 0)
+// {
+//     System.Console.WriteLine("Ошибка!\nВведите натуральное число");
+//     n = int.Parse(Console.ReadLine()!);
+// }
+// if (n < 10)
+// {
+//     System.Console.WriteLine(n);
+// }
+// else
+// {
+//     while (n > 0)
+//     {
+//         int n1 = n % 10;
+//         n /= 10; // не понятно что за оперция?
+//     if (n > 0)
+//     {
+//         System.Console.Write($"{n1},");
+//     }
+//     else
+//     {
+//         System.Console.WriteLine(n1);
+//     }
+//     }
+// }
