@@ -91,7 +91,7 @@
 // {
 //     for(int i = 0; i < PriArr.Length; i++)
 //     {
-//         PriArr[i] = random.NextDouble() * 20;
+//         PriArr[i] = random.NextDouble() * 100;
 //         System.Console.WriteLine(PriArr[i] + " ");
 //     }
 //     System.Console.WriteLine();
