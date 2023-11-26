@@ -2,7 +2,7 @@
 
 // Console.Clear();
 
-// int lenArr = 10;
+// int lenArr = 15;
 // int[] arr = FullArray(lenArr);
 // int count = 0;
 // PrintArray(arr);
@@ -28,23 +28,24 @@
 // }
 
 // void FindNumber(int[] FinNum)
-// {
+// {   int count = 0;
 //     for (int i = 0; i < FinNum.Length; i++)
-//     {
+//     {   
+         
 //         if (FinNum[i] > 20 && FinNum[i] < 90)
 //         {
 //             count++;
 //         }
 //     }
-//      System.Console.Write(count);
+//      System.Console.Write($"{count} чисел в диапазоне от 20 до 90");
+
 // }
 
 // // Задача 2
 
 // Console.Clear();
 
-// int count = 0;
-// int lenArr = 10;
+// int lenArr = 15;
 // int[] array = RandomArray(lenArr);
 // PrintArray(array);
 // EvenNumbers(array);
@@ -69,10 +70,45 @@
 // }
 // void EvenNumbers(int[] EvenNum)
 // {
+//     int count = 0;
 //     for (int i = 0; i < EvenNum.Length; i++)
 //     {
 //         if(EvenNum[i] % 2 == 0)
 //         count++;
 //     }
 //     System.Console.WriteLine($"{count} Четных числа");
+// }
+
+// // Задача 3
+// Console.Clear();
+
+// double[] array = {2.2, 0.4, 9.11, 7.2, 78.98};
+// Random random = new Random();
+// PrintArray(array);
+// DiffArray(array);
+
+// void PrintArray(double[] PriArr)
+// {
+//     for(int i = 0; i < PriArr.Length; i++)
+//     {
+//         PriArr[i] = random.NextDouble() * 20;
+//         System.Console.WriteLine(PriArr[i] + " ");
+//     }
+//     System.Console.WriteLine();
+// }
+
+// void DiffArray(double[] array)
+// {
+//     double max = array[0];
+//     double min = array[0];
+//     foreach (double num in array)
+//     {
+//         if (num > max)
+//             max = num;
+//         if (num < min)
+//             min = num;
+            
+//     }
+//     System.Console.WriteLine($"{max} - {min} = {max - min}");
+    
 // }
