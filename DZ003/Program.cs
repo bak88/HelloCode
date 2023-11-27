@@ -82,7 +82,7 @@
 // // Задача 3
 // Console.Clear();
 
-// double[] array = {2.2, 0.4, 9.11, 7.2, 78.98};
+// double[] array = {2.2, 0.4, 9.11, 7.2, 78.98, 3.2, 8.9, 9,9};
 // Random random = new Random();
 // PrintArray(array);
 // DiffArray(array);
@@ -101,14 +101,13 @@
 // {
 //     double max = array[0];
 //     double min = array[0];
-//     foreach (double num in array)
+//     for (int i = 0 + 1; i < array.Length; i++)
 //     {
-//         if (num > max)
-//             max = num;
-//         if (num < min)
-//             min = num;
-            
+//         if (array[i] > max)
+//             max = array[i];
+//         if (array[i] < min)
+//             min = array[i];
 //     }
 //     System.Console.WriteLine($"{max} - {min} = {max - min}");
-    
+ 
 // }
