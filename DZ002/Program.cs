@@ -74,7 +74,7 @@
 //  }
 
 
-// // Задача 4 Подсмотрел в ответе
+// // Задача 4 
 // Console.Clear();
 // System.Console.WriteLine("Введите натурально число");
 // int n = int.Parse(Console.ReadLine()!);
@@ -84,23 +84,9 @@
 //     System.Console.WriteLine("Ошибка!\nВведите натуральное число");
 //     n = int.Parse(Console.ReadLine()!);
 // }
-// if (n < 10)
+// while (n > 0)
 // {
-//     System.Console.WriteLine(n);
-// }
-// else
-// {
-//     while (n > 0)
-//     {
-//         int n1 = n % 10;
-//         n /= 10; // не понятно что за оперция?
-//     if (n > 0)
-//     {
-//         System.Console.Write($"{n1},");
-//     }
-//     else
-//     {
-//         System.Console.WriteLine(n1);
-//     }
-//     }
+//     int x = n % 10;
+//     System.Console.Write($"{x}, ");
+//     n /= 10;
 // }
