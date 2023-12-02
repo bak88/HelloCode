@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT_work\\Examples\\Examples004_Div\\Examples004_Div.csproj",
+      "projectUniqueName": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples004_Div\\Examples004_Div.csproj",
       "projectName": "Examples004_Div",
-      "projectPath": "D:\\GIT_work\\Examples\\Examples004_Div\\Examples004_Div.csproj",
+      "projectPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples004_Div\\Examples004_Div.csproj",
       "packagesPath": "C:\\Users\\dimba\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT_work\\Examples\\Examples004_Div\\obj\\",
+      "outputPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples004_Div\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dimba\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -54,12 +54,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
