@@ -12,3 +12,18 @@ D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\refint\Examples004_Div.dll
 D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.pdb
 D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\Examples004_Div.genruntimeconfig.cache
 D:\GIT_work\Examples\Examples004_Div\obj\Debug\net7.0\ref\Examples004_Div.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\bin\Debug\net7.0\Examples004_Div.exe
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\bin\Debug\net7.0\Examples004_Div.deps.json
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\bin\Debug\net7.0\Examples004_Div.runtimeconfig.json
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\bin\Debug\net7.0\Examples004_Div.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\bin\Debug\net7.0\Examples004_Div.pdb
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.GeneratedMSBuildEditorConfig.editorconfig
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.AssemblyInfoInputs.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.AssemblyInfo.cs
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.csproj.CoreCompileInputs.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.sourcelink.json
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\refint\Examples004_Div.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.pdb
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\Examples004_Div.genruntimeconfig.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples004_Div\obj\Debug\net7.0\ref\Examples004_Div.dll

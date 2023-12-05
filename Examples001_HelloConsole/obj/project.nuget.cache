@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWRzAXwtAQetAl0zQQD+lDXA1xhaU1GvN5BDW9ghkO9gBHVNMZO1EhEY/6QTg5L3rF833+T3GBzWpSK7v53EQA==",
+  "dgSpecHash": "LQIqXlr0f2LWglrB6Tu5HMHCxGSHI2QWnGCMo1M/MOafLaczsaIAIHQLnfwKeA/sz5RdtKtBZj+mNesKykGLCw==",
   "success": true,
-  "projectFilePath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
+  "projectFilePath": "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimba\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\dimba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",

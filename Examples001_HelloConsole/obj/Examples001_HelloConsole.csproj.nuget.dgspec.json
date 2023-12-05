@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj": {}
+    "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj": {}
   },
   "projects": {
-    "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj": {
+    "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
+        "projectUniqueName": "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
         "projectName": "Examples001_HelloConsole",
-        "projectPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
+        "projectPath": "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\Examples001_HelloConsole.csproj",
         "packagesPath": "C:\\Users\\dimba\\.nuget\\packages\\",
-        "outputPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\obj\\",
+        "outputPath": "F:\\IT\\git_edition\\HelloCode\\Examples001_HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimba\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,6 @@
-﻿// // Задача 1: Задайте двумерный массив символов 
+﻿Console.Clear();
+
+// // Задача 1: Задайте двумерный массив символов 
 // // (тип char [,]). Создать строку из символов этого массива. 
 
 // Console.Clear();
@@ -14,7 +16,7 @@
 // // в обоих регистрах. Сформируйте строку, в которой все 
 // // заглавные буквы заменены на строчные. 
 
-// Console.Clear();
+
 // System.Console.WriteLine("Введите строку: ");
 // string str = Console.ReadLine()!;
 // string new_str = string.Empty;
@@ -36,15 +38,14 @@
 // Задача 3: Задайте произвольную строку. Выясните, 
 // является ли она палиндромом.
 
-
-Console.Clear();
+System.Console.WriteLine("Введите строку палиндром: ");
 string str = Console.ReadLine()!;
-bool new_str = true;
-for (int i = 0; i < str.Length / 2; i++)
+bool isPalindrome = IsPalindrome(str);
+Console.WriteLine(isPalindrome ? "Да" : "Нет");
+
+bool IsPalindrome(string str)
 {
-    if (str[i] != str[str.Length-i-1])
-    {
-        new_str = false;
-    }
-    Console.WriteLine(new_str);
+    string normalized = new
+    string(str.Where(char.IsLetterOrDigit).ToArray()).ToLower();
+    return normalized.SequenceEqual(normalized.Reverse());
 }

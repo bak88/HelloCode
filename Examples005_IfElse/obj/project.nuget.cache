@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2nLcP5g7CF6kCmAu4vtgPw27YC+fYeeJktYN0NClHEAS/3iE46rKBQDfxJuhC6T3cZCyTkvpn+z+V5zIKRkghQ==",
+  "dgSpecHash": "Fc364Wx2nPvzNB7OKcM8j1Hy7BQeiI92bZBDm8tXY7O671mBmTysO5UUh6JwqhhMyYqJc1uGEksQA2eFUH/7ng==",
   "success": true,
-  "projectFilePath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples005_IfElse\\Examples005_IfElse.csproj",
+  "projectFilePath": "F:\\IT\\git_edition\\HelloCode\\Examples005_IfElse\\Examples005_IfElse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimba\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\dimba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",

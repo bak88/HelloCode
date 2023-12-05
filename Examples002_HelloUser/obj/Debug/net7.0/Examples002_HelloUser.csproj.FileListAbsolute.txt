@@ -12,3 +12,18 @@ D:\GIT_work\Examples\Examples002_HelloUser\obj\Debug\net7.0\refint\Examples002_H
 D:\GIT_work\Examples\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.pdb
 D:\GIT_work\Examples\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.genruntimeconfig.cache
 D:\GIT_work\Examples\Examples002_HelloUser\obj\Debug\net7.0\ref\Examples002_HelloUser.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\bin\Debug\net7.0\Examples002_HelloUser.exe
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\bin\Debug\net7.0\Examples002_HelloUser.deps.json
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\bin\Debug\net7.0\Examples002_HelloUser.runtimeconfig.json
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\bin\Debug\net7.0\Examples002_HelloUser.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\bin\Debug\net7.0\Examples002_HelloUser.pdb
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.AssemblyInfoInputs.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.AssemblyInfo.cs
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.csproj.CoreCompileInputs.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.sourcelink.json
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\refint\Examples002_HelloUser.dll
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.pdb
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\Examples002_HelloUser.genruntimeconfig.cache
+F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\obj\Debug\net7.0\ref\Examples002_HelloUser.dll

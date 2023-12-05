@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Examples002_HelloUser
-build_property.ProjectDir = F:\Разработчик IT\git_edition\HelloCode\Examples002_HelloUser\
+build_property.ProjectDir = F:\IT\git_edition\HelloCode\Examples002_HelloUser\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples003_Sum\\Examples003_Sum.csproj",
+      "projectUniqueName": "F:\\IT\\git_edition\\HelloCode\\Examples003_Sum\\Examples003_Sum.csproj",
       "projectName": "Examples003_Sum",
-      "projectPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples003_Sum\\Examples003_Sum.csproj",
+      "projectPath": "F:\\IT\\git_edition\\HelloCode\\Examples003_Sum\\Examples003_Sum.csproj",
       "packagesPath": "C:\\Users\\dimba\\.nuget\\packages\\",
-      "outputPath": "F:\\Разработчик IT\\git_edition\\HelloCode\\Examples003_Sum\\obj\\",
+      "outputPath": "F:\\IT\\git_edition\\HelloCode\\Examples003_Sum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dimba\\AppData\\Roaming\\NuGet\\NuGet.Config"
