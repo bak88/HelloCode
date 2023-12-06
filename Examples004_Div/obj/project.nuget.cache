@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/9aS79Wco4tjGs5Lj45EzlxvAR8GKhuQ8hsaHZfUMWGmstXWtia3VSfZa7oEDYwlIOdIRdB0MnDX81nrdcmjg==",
+  "dgSpecHash": "QUZZ950k4A2l9a3O4y2cY+e65E69hP0j9s9iUxDxeZdxoNpyby1QuMYD/AYb03i0gZDRDphfEyUeZikG90kYhQ==",
   "success": true,
   "projectFilePath": "F:\\IT\\git_edition\\HelloCode\\Examples004_Div\\Examples004_Div.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dimba\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\dimba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\dimba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\dimba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
