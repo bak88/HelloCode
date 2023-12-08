@@ -94,6 +94,7 @@ void coupArray(int[] size, int i = 0)
 {
     if (i < size.Length)
     {
+        // System.Console.Write($"{size[i]} ");
         coupArray(size, i + 1);
         System.Console.Write($"{size[i]} ");
 
