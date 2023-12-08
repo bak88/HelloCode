@@ -30,64 +30,64 @@
 // */
 
 
-int summaCifr(int n){
-    if (n < 10)
-        return n;
-    return summaCifr(n / 10) + n % 10;
-}
-
-/* n = 456 S = summaCifr
-S(456) -> S(45) + 6 = 4 + 5 + 6 = 15
-            |
-            S(4) + 5 = 4 + 5
-              |
-              4
-
-*/
-
-
-Console.Clear();
-Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine()!);
-// int result = 0;
-// while (n >= 10){ // n < 10 || n % 10 = n || n / 10 == 0
-//     result += n % 10;
-//     n /= 10;
+// int summaCifr(int n){
+//     if (n < 10)
+//         return n;
+//     return summaCifr(n / 10) + n % 10;
 // }
-// Console.WriteLine(result + n);
-Console.WriteLine(summaCifr(n));
 
+// /* n = 456 S = summaCifr
+// S(456) -> S(45) + 6 = 4 + 5 + 6 = 15
+//             |
+//             S(4) + 5 = 4 + 5
+//               |
+//               4
 
-// /*
-// Задача 2.
-// Задайте значение N. Напишите программу, которая выведет
-// все натуральные числа в промежутке от 1 до N.
-// */
-// string printNumbers(int n){
-//     if (n == 0) // n == 1
-//         return ""; // return "1 "
-//     return printNumbers(n - 1) + $"{n} ";
-// }
-// /*
-// n = 5 P = printNumbers
-// P(5) -> P(4) + "5 " = "1 2 3 4 " + "5 " =  "1 2 3 4 5 "
-//         |
-//         P(3) + "4 " = "1 2 3 " + "4 " = "1 2 3 4 "
-//         |
-//         P(2) + "3 " = "1 2 " + "3 " = "1 2 3 "
-//         |
-//         P(1) + "2 " = "1 " + "2 " = "1 2 "
-//         |
-//         P(0) + "1 " = "" + "1 " = "1 "
-//         |
-//         ""
 // */
 
 
 // Console.Clear();
 // Console.Write("Введите число: ");
 // int n = int.Parse(Console.ReadLine()!);
-// Console.WriteLine(printNumbers(n));
+// // int result = 0;
+// // while (n >= 10){ // n < 10 || n % 10 = n || n / 10 == 0
+// //     result += n % 10;
+// //     n /= 10;
+// // }
+// // Console.WriteLine(result + n);
+// Console.WriteLine(summaCifr(n));
+
+
+/*
+Задача 2.
+Задайте значение N. Напишите программу, которая выведет
+все натуральные числа в промежутке от 1 до N.
+*/
+string printNumbers(int n){
+    if (n == 0) // n == 1
+        return ""; // return "1 "
+    return printNumbers(n - 1) + $"{n} ";
+}
+/*
+n = 5 P = printNumbers
+P(5) -> P(4) + "5 " = "1 2 3 4 " + "5 " =  "1 2 3 4 5 "
+        |
+        P(3) + "4 " = "1 2 3 " + "4 " = "1 2 3 4 "
+        |
+        P(2) + "3 " = "1 2 " + "3 " = "1 2 3 "
+        |
+        P(1) + "2 " = "1 " + "2 " = "1 2 "
+        |
+        P(0) + "1 " = "" + "1 " = "1 "
+        |
+        ""
+*/
+
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+Console.WriteLine(printNumbers(n));
 
 
 
