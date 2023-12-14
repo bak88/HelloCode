@@ -1,4 +1,4 @@
-﻿Console.Clear();
+﻿ Console.Clear();
 
 System.Console.Write("Введите выссоту треугольника: ");
 
