@@ -1,5 +1,5 @@
 ﻿// Массивы
- 
+
 // Console.Clear();
 // System.Console.WriteLine("Введите длину массива: ");
 // int n = int.Parse(Console.ReadLine()!);
@@ -115,7 +115,7 @@
 
 
 // // Задача 2
- 
+
 //  void inputArray(int[] array)
 // {
 //     for (int i = 0; i < array.Length; i++)
@@ -148,8 +148,25 @@
 
 // Задача 3
 
- void inputArray(int[] array)
+Console.Clear();
+System.Console.Write("Введите кол-во эл-ов массива: ");
+int n = int.Parse(Console.ReadLine()!);
+
+int[] array = new int[n];
+inputArray(array);
+System.Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+forminNumber(array);
+//System.Console.WriteLine($"Конечный массив: [{string.Join(", ", array)}]");
+
+
+void inputArray(int[] array)
 {
+    while (n < 0 || n > 8)
+    {
+        System.Console.Write("Ошибка!!! Введите число от 0 до 8: ");
+        n = int.Parse(Console.ReadLine()!);
+    }
+
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(0, 10);
@@ -160,25 +177,17 @@
 int forminNumber(int[] array)
 {
     int result = 0;
-    int i = array.Lenght - 1;
+    int i = array.Length - 1;
     foreach (int item in array)
     {
         result += item * Convert.ToInt32(Math.Pow(10, i));
-        i--; 
+        i--;
     }
     return result;
 }
 
 
-Console.Clear();
-System.Console.Write("Введите кол-во эл-ов массива: ");
-int n = int.Parse(Console.ReadLine()!);
-while (n < 0 || n > 8)
-{
-    System.Console.Write("Ошибка!!! Введите число от 0 до 8: ");
-    n = int.Parse(Console.ReadLine()!);
-}
-int[] array = new int[n];
-inputArray(array);
-System.Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
+
+
+
 
