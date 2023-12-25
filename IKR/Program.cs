@@ -7,10 +7,23 @@ Console.Clear();
 
 Console.Write("Введите длину массива: ");
 int n = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Введите любые {n} слов(-a) через Enter:");
-    string[] strArray = new string[n];
+Console.WriteLine($"Введите любые {n} строк(-и) через Enter:");
+string[] strArray = new string[n];
+
     for (int i = 0; i < strArray.Length; i++)
     {
-        strArray[i] = Console.ReadLine();
+        strArray[i] = Console.ReadLine()!;
     }
-    Console.WriteLine($"Начальный массив: [{string.Join(", ", strArray)}]");
+    Console.WriteLine($"Начальный массив: {string.Join(" ", strArray)}");
+
+    System.Console.Write("Конечный массив: ");
+
+    for (int i = 0; i < strArray.Length; i++)
+    {
+        if (strArray[i].Length <= 3)
+        {
+            Console.Write($"{strArray[i]} ");
+        }
+    
+    }
+
