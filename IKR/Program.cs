@@ -14,9 +14,9 @@ string[] strArray = new string[n];
     {
         strArray[i] = Console.ReadLine()!;
     }
-    Console.WriteLine($"Начальный массив: {string.Join(" ", strArray)}");
+    Console.WriteLine($"Начальный массив: [{string.Join(" ", strArray)} ]");
 
-    System.Console.Write("Конечный массив: ");
+    System.Console.Write("Конечный массив: [");
 
     for (int i = 0; i < strArray.Length; i++)
     {
@@ -24,6 +24,6 @@ string[] strArray = new string[n];
         {
             Console.Write($"{strArray[i]} ");
         }
-    
     }
+    System.Console.WriteLine("]");
 
