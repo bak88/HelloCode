@@ -5,14 +5,14 @@ b = 'Привет, меня зовут Вася!'
 z = 'Hello world!'
 age = 25
 
-# print(a, b, z)
-# print(a, b, z, sep=' ', end='\n')
+print(a, b, z)
+print(a, b, z, sep=' ', end='\n')
 
-# print(a, b, z, sep=f' опа! ')
-# print(a, b, z, sep=f'{age}')
-# print(a, b, z, sep=str(age))
-# print(a, b, z, sep='\n')
-# print(a, b, z, sep='\t')
+print(a, b, z, sep=f' опа! ')
+print(a, b, z, sep=f'{age}')
+print(a, b, z, sep=str(age))
+print(a, b, z, sep='\n')
+print(a, b, z, sep='\t')
 
 print(b, end=z)
 print(a, end='~~~!!!~~~')
