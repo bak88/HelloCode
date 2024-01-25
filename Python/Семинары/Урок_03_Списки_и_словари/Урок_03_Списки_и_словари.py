@@ -71,19 +71,19 @@
     Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 '''
 
-# list_1 = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, 
-# {"VI": "S005"}, {"VII": "S005"}, {"V":"S009"}, {"VIII":"S007"}]
+list_1 = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, 
+{"VI": "S005"}, {"VII": "S005"}, {"V":"S009"}, {"VIII":"S007"}]
 
-# # Создадим МНОЖЕСТВО set_1 с помощью функцию set()
-# set_1 = set()
+# Создадим МНОЖЕСТВО set_1 с помощью функцию set()
+set_1 = set()
 
-# # Создадим цикл что бы пройтись по всем значения списка
-# for i in list_1:
-#     # print(i) # Выводит СЛОВАРИ
-#     for j in i:
-#         # print(j) # Выводит КЛЮЧИ
-#         set_1.add(i[j])
-# print(set_1)
+# Создадим цикл что бы пройтись по всем значения списка
+for i in list_1:
+    # print(i) # Выводит СЛОВАРИ
+    for j in i:
+        # print(j) # Выводит КЛЮЧИ
+        set_1.add(i[j])
+print(set_1)
 
 # unique = set()
 
@@ -106,28 +106,6 @@
 #     unique.update(cur_dict.values()) # работает со всеми элементами списка/словаря
 # print(unique)
 
-# Пояснение к add и updata
-
-# my_set = {123,2345,4567,6789,890,567}
-# print(my_set)
-# text = 'Hello world!'
-# my_tuple = (1,2,3,4,5)
-# num = 55
-
-
-# # my_set.add(text)
-# # print(my_set)
-# # my_set.add(my_tuple)
-# # print(my_set)
-# # my_set.add(num)
-# # print(my_set)
-
-# my_set.update(text)
-# print(my_set)
-# my_set.update(my_tuple)
-# print(my_set)
-# # my_set.update(num)
-# # print(my_set)
 
 ''' Задача 4
     Дан массив, состоящий из целых чисел. Напишите 
@@ -137,19 +115,19 @@
     Input: [0, -1, 5, 2, 3]
     Output: 2 (-1 < 5, 2 < 3)
 '''
-from random import randint
+# from random import randint
 
-list_1 = []
-count = 0
+# list_1 = []
+# count = 0
 
-for _ in range(6):
-    list_1.append(randint(-50, 50))
-print(list_1)
+# for _ in range(6):
+#     list_1.append(randint(-50, 50))
+# print(list_1)
 
-for i in range(1, len(list_1)):
-    if list_1[i] > list_1[i-1]:
-        count += 1
-print(count)
+# for i in range(1, len(list_1)):
+#     if list_1[i] > list_1[i-1]:
+#         count += 1
+# print(count)
 
 
 # from random import randint
