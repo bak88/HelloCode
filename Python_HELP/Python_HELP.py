@@ -78,18 +78,18 @@
 
 ''' Словарь {dict}'''
 
-country = {'code': 'BY', 'name': 'Belarus', 'population': 1488} # 1ый способ создания словaря
-print(country['name'])
-print(country.get('name')) # Идентично квадратным скобкам
-print(country.keys()) # Вывод ключей
-print(country.values()) # Вывод значений
-print(country.items()) # Получаем ключи и значения
+# country = {'code': 'BY', 'name': 'Belarus', 'population': 1488} # 1ый способ создания словaря
+# print(country['name'])
+# print(country.get('name')) # Идентично квадратным скобкам
+# print(country.keys()) # Вывод ключей
+# print(country.values()) # Вывод значений
+# print(country.items()) # Получаем ключи и значения
 
 # country.pop('name') # Удаляет эл-нт по ключу
 # print(country)
 # country.popitem() # Удаляет последний эл-нт
 # print(country)
-print()
+# print()
 
 # country_1 = dict(code='BY', name='Belarus') # 2ой способ создания словaря
 # print(country_1['code'])
@@ -103,3 +103,16 @@ print()
 # for key, value in country.items(): # Перебор значений
 #     print(f'{key} - {value}')
 
+
+''' Множество set{}'''
+
+# data = {3, 4, 5, 6, 7} # Не возможно обратится по индексу, ошибка
+# print(data)
+# data.add(14) # Добавить новый эл-нт
+# print(data)
+# data.update(['88', True, 1, 9]) # Добавить новые значения
+# print(data)
+# data.remove(True) # Удалить эл-нт
+# print(data)
+# data.pop() # Удалить первый эл-нт
+# print(data)
