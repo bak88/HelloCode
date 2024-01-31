@@ -32,7 +32,7 @@
     k = 6
     # 5
 '''
-from random import randint
+# from random import randint
 # import math #подключаем модуль с дополнительными математическими способностями
 
 # size = int(input('Введите размер массива: '))
