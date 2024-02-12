@@ -60,12 +60,13 @@ def add_contact():
     with open("F:\IT\git_edition\HelloCode\Python\Семинары\Урок_08_Работа_с_файлами\phonebook.txt", 'a', encoding='utf-8') as file:
         file.write(contact_str) # Дозаписываем контакт
     
-           
-def print_contacts(): # Выводим все контакты
+def create_list_contact(): # Считывает файл, сохраняет текст в переменную
     with open("F:\IT\git_edition\HelloCode\Python\Семинары\Урок_08_Работа_с_файлами\phonebook.txt", 'r', encoding='utf-8') as file:
         all_contacts_str = file.read() # Считываем все контакты в виде одной строки
-        contacts_list = all_contacts_str.rstrip().split('\n\n') # Строку контактов переделываем в список контактов
-    for n, contact in enumerate(contacts_list, 1): # Нумерация контактов
+        return all_contacts_str.rstrip().split('\n\n') # Строку контактов переделываем в список контактов
+              
+def print_contacts(cont_list=create_list_contact()): # Выводим все контакты
+    for n, contact in enumerate(cont_list, 1): # Нумерация контактов
         print(n, contact) # n - номер, contact - контакт
             
 
@@ -95,31 +96,22 @@ def search_contact():
             print(str_contact)
     
 def copy_contact():
-    
-    with open("F:\IT\git_edition\HelloCode\Python\Семинары\Урок_08_Работа_с_файлами\phonebook.txt", 'r', encoding='utf-8') as file:
-        all_contacts_str = file.read() # Считываем все контакты в виде одной строки
-        contacts_list = all_contacts_str.rstrip().split('\n\n') # Строку контактов переделываем в СПИСОК контактов
-        # print(contacts_list)    
+    contacts_list = create_list_contact()      
 
-    for n, contact in enumerate(contacts_list, 1): # Нумерация контактов
-        print(n, contact) # n - номер, contact - контакт
-    print()
+    print_contacts(contacts_list)
 
     one_copy_cont = int(input("Выберите контакт по номеру для копирования: "))
     print()
     
-    for n, contact in enumerate(contacts_list, 1): # Нумерация контактов
-        if n == one_copy_cont:
-            print(n, contact)
+    # for n, contact in enumerate(contacts_list, 1): # Нумерация контактов
+    #     if n == one_copy_cont:
+    #         print(n, contact)
 
-            with open("F:\IT\git_edition\HelloCode\Python\Семинары\Урок_08_Работа_с_файлами\copy_phonebook.txt", 'a', encoding='utf-8') as file:
-                file.write(f'\n{contact}\n')
-
-
+    with open("F:\IT\git_edition\HelloCode\Python\Семинары\Урок_08_Работа_с_файлами\copy_phonebook.txt", 'a', encoding='utf-8') as file:
+        file.write(f'\n{contacts_list[one_copy_cont - 1]}\n')
 
 
-
-             
+        
 
 
 def interface(): #  Создаем UserInterFace
