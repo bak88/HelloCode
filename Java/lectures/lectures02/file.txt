@@ -1,0 +1,4 @@
+февр. 17, 2024 12:09:47 PM Java.lectures.lectures02.Ex005_Logger main
+WARNING: Тестовое логирование 1
+февр. 17, 2024 12:09:47 PM Java.lectures.lectures02.Ex005_Logger main
+INFO: Тестовое логирование 2
