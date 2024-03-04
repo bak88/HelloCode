@@ -29,7 +29,8 @@ public class Task02_02 {
 
             }
             
-        } res.append(currentChar).append(count);
+        }
+        res.append(currentChar).append(count);
         return res.toString();
 
     } 
