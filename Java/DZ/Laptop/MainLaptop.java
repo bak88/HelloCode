@@ -1,8 +1,6 @@
 package Java.DZ.Laptop;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class MainLaptop {
     public static void main(String[] args) {
@@ -24,8 +22,18 @@ public class MainLaptop {
         laptopSet.add(laptop6);
         laptopSet.add(laptop7);
 
-        for (var laptop : laptopSet){
+        for (var laptop : laptopSet) {
             System.out.println(laptop);
         }
     }
+
+    public static void laptopSearch(Set<Laptop> laptopSet) {
+        Map<Integer, String> search = new HashMap<>();
+        search.put(1, "ОЗУ");
+        search.put(2, "Модель");
+        search.put(3, "ОС");
+        search.put(4, "Объем ЖД");
+
+    }
+
 }
