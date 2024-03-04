@@ -1,2 +1,0 @@
-февр. 28, 2024 4:16:27 PM Java.Seminars.Seminar02.Task02_05 writeToFile
-INFO: Данные успешно записаны в файл
