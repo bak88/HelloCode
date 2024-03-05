@@ -70,7 +70,7 @@ public class Laptop {
         if (this == obj) {
             return true;
         }
-        if (obj == null || getClass() != obj.getClass()){
+        if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
         Laptop laptop = (Laptop) obj;
@@ -86,6 +86,7 @@ public class Laptop {
     public int hashCode() {
         return Objects.hash(screenDiagonal, modelName, ram, storageCapacity, operatingSystem);
     }
+
 }
 
 
