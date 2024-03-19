@@ -1,44 +1,43 @@
 package Java;
-/* Дана строка sql-запроса:
-
-select * from students where "
-Сформируйте часть WHERE этого запроса, используя StringBuilder.
-Данные (параметры) для фильтрации приведены в виде json-строки в примере ниже. Если значение null,
-то параметр не должен попадать в запрос.
-
-Напишите свой код в методе answer класса Answer. Метод answer принимает на вход два параметра:
-
-String QUERY - начало SQL-запроса String PARAMS - JSON с параметрами
-
-Пример: Строка sql-запроса:
-
-select * from students where
-Параметры для фильтрации:
-
- {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
-Результат:
-
-select * from students where name='Ivanov' and country='Russia' and city='Moscow'
-* */
-
-
-import java.util.Arrays;
 
 public class Training {
 
     public static void main(String[] args) {
 
-        String value = "In JavaRush, Diego the best, Diego is Java God".replace('I', 'O');
-        System.out.println(value);
+        Person kate = new Person("Kate");
+        System.out.println(kate.getName());     // Kate
+        changePerson(kate);
+        System.out.println(kate.getName());     // Kate - изменения не произошло
+        // kate хранит ссылку на старый объект
     }
 
+    static void changePerson(Person p) {
+        p = new Person("Alice");    // p указывает на новый объект
+        p.setName("Ann");
+    }
 
-
-
+    static void changeName(Person p) {
+        p.setName("Alice");
+    }
 }
 
+class Person {
 
+    private String name;
 
+    Person(String name) {
+        this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+
+        return this.name;
+    }
+}
 
 
 

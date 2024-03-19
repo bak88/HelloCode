@@ -150,6 +150,37 @@ public class HELP {
     //    int length() Возвращает длину строки в символах
 
 
+// Класс Arrays
+
+    //    Arrays.toString(имя) Выводит массив на экран
+    //    Arrays.deepToString(имя) Вывод двумерного массива
+    //    Arrays.equals(имя1, имя2) Сравнение массивов
+    //    Arrays.deepEquals(имя1, имя2) Сравнение двумерных массивов
+    //    Arrays.fill(имя, значение) Заполняет переданный массив переданным значением
+    //    Arrays.fill(имя, первый, последний, значение) Можно заполнить определенным значением не весь массив, а его часть
+    //    Arrays.copyOf(имя, длина) Копирование массива и изменение его длины если нужно
+    //        int[] x = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    //        int[] x2 = Arrays.copyOf(x, 5); // "[1, 2, 3, 4, 5]"
+    //        String str2 = Arrays.toString(x2);
+    //        int[] x3 = Arrays.copyOf(x, 15); // "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0, 0, 0, 0, 0]"
+    //        String str3 = Arrays.toString(x3);
+    //    Arrays.copyOfRange(имя, первый, последний) Создает новый массив, но заполняет его данными из произвольного места исходного массива
+    //        int[] x = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+    //        int[] x2 = Arrays.copyOfRange(x, 5, 10);
+    //        String str2 = Arrays.toString(x2); // "[16, 17, 18, 19, 20]"
+    //        int[] x3 = Arrays.copyOfRange(x, 5, 15);
+    //        String str3 = Arrays.toString(x3); // "[16, 17, 18, 19, 20, 0, 0, 0, 0, 0]"
+    //    Arrays.sort(имя) Сортировка массива
+    //    Arrays.sort(имя, первый, последний) Сортировка части массива
+    //    Arrays.binarySearch(имя, значение) бинарный поиск, массив должен быть отсортирован
+    //        int[] x = {11, -2, 3, 0, 999, -20, 8, -20, 99, -20};
+    //        Arrays.sort(x);
+    //        int index1 = Arrays.binarySearch(x, 0);
+    //        int index2 = Arrays.binarySearch(x, -20);
+    //        int index3 = Arrays.binarySearch(x, 99);
+    //        int index4 = Arrays.binarySearch(x, 5);
+
+
 
 
 
