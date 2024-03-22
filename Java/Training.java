@@ -2,42 +2,90 @@ package Java;
 
 public class Training {
 
+
     public static void main(String[] args) {
 
-        Person kate = new Person("Kate");
-        System.out.println(kate.getName());     // Kate
-        changePerson(kate);
-        System.out.println(kate.getName());     // Kate - изменения не произошло
-        // kate хранит ссылку на старый объект
-    }
+        Object kate = new Client("Kate", "DeutscheBank", 2000);
+        if(kate instanceof Client clientKate){
 
-    static void changePerson(Person p) {
-        p = new Person("Alice");    // p указывает на новый объект
-        p.setName("Ann");
-    }
+            clientKate.display();
+        }
+        else{
 
-    static void changeName(Person p) {
-        p.setName("Alice");
+            System.out.println("Conversion is invalid");
+        }
     }
 }
 
+// класс человека
 class Person {
 
     private String name;
 
-    Person(String name) {
-        this.name = name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getName() {
+        return name;
+    }
 
-        return this.name;
+    public Person(String name) {
+
+        this.name = name;
+    }
+
+    public void display() {
+
+        System.out.printf("Person %s \n", name);
     }
 }
+
+// служащий некоторой компании
+class Employee extends Person {
+
+    private String company;
+
+    public Employee(String name, String company) {
+
+        super(name);
+        this.company = company;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void display() {
+
+        System.out.printf("Employee %s works in %s \n", super.getName(), company);
+    }
+}
+
+// класс клиента банка
+class Client extends Person {
+
+    private int sum; // Переменная для хранения суммы на счете
+    private String bank;
+
+    public Client(String name, String bank, int sum) {
+
+        super(name);
+        this.bank = bank;
+        this.sum = sum;
+    }
+
+    public void display() {
+
+        System.out.printf("Client %s has account in %s \n", super.getName(), bank);
+    }
+
+    public String getBank() {
+        return bank;
+    }
+
+    public int getSum() {
+        return sum;
+    }
+}
+
+
 
 
 
