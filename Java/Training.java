@@ -1,89 +1,52 @@
 package Java;
 
-public class Training {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+class Training {
+
+    // Метод, который добавляет номера в книгу
+    public void addNumber(String key, int value, Map<String, ArrayList<Integer>> map) {
+        if (map.containsKey(key)) {
+            map.get(key).add(value);
+        } else {
+            ArrayList<Integer> list = new ArrayList<>();
+            list.add(value);
+            map.put(key, list);
+        }
+    }
+
+    // Метод, который печатает список контактов
+    public void printBook(Map<String, ArrayList<Integer>> map) {
+        for (var item : map.entrySet()) {
+            String phones = "";
+            for (int el : item.getValue()) {
+                phones = phones + el + ", ";
+            }
+            System.out.printf(" %s: %s \n", item.getKey(), phones);
+        }
+    }
 
 
+}
+class Main {
     public static void main(String[] args) {
 
-        Object kate = new Client("Kate", "DeutscheBank", 2000);
-        if(kate instanceof Client clientKate){
+        Map<String, ArrayList<Integer>> bookPhone = new HashMap<>();
 
-            clientKate.display();
-        }
-        else{
+//        bookPhone.addNumber("Ivanov", 123, bookPhone);
+//        addNumber("Ivanov", 1234, bookPhone);
+//        addNumber("Petrov", 546585, bookPhone);
+//        addNumber("Sidorov", 8956477, bookPhone);
+//        addNumber("Ivanov", 12356233, bookPhone);
+//        addNumber("Petrov", 787897, bookPhone);
+//        printBook(bookPhone);
 
-            System.out.println("Conversion is invalid");
-        }
     }
 }
 
-// класс человека
-class Person {
 
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public Person(String name) {
-
-        this.name = name;
-    }
-
-    public void display() {
-
-        System.out.printf("Person %s \n", name);
-    }
-}
-
-// служащий некоторой компании
-class Employee extends Person {
-
-    private String company;
-
-    public Employee(String name, String company) {
-
-        super(name);
-        this.company = company;
-    }
-
-    public String getCompany() {
-        return company;
-    }
-
-    public void display() {
-
-        System.out.printf("Employee %s works in %s \n", super.getName(), company);
-    }
-}
-
-// класс клиента банка
-class Client extends Person {
-
-    private int sum; // Переменная для хранения суммы на счете
-    private String bank;
-
-    public Client(String name, String bank, int sum) {
-
-        super(name);
-        this.bank = bank;
-        this.sum = sum;
-    }
-
-    public void display() {
-
-        System.out.printf("Client %s has account in %s \n", super.getName(), bank);
-    }
-
-    public String getBank() {
-        return bank;
-    }
-
-    public int getSum() {
-        return sum;
-    }
-}
 
 
 
