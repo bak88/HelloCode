@@ -1,17 +1,54 @@
 package Java;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Training {
-    public static void main(String[] args) {
+class Training {
 
-    String str = "20 40 60";
-      Scanner scanner = new Scanner(str);
-      int a = scanner.nextInt();
-      int b = scanner.nextInt();
-
-      System.out.println(a + b);
+    // Метод, который добавляет номера в книгу
+    public void addNumber(String key, int value, Map<String, ArrayList<Integer>> map) {
+        if (map.containsKey(key)) {
+            map.get(key).add(value);
+        } else {
+            ArrayList<Integer> list = new ArrayList<>();
+            list.add(value);
+            map.put(key, list);
+        }
     }
 
+    // Метод, который печатает список контактов
+    public void printBook(Map<String, ArrayList<Integer>> map) {
+        for (var item : map.entrySet()) {
+            String phones = "";
+            for (int el : item.getValue()) {
+                phones = phones + el + ", ";
+            }
+            System.out.printf(" %s: %s \n", item.getKey(), phones);
+        }
+    }
+
+
 }
+class Main {
+    public static void main(String[] args) {
+
+        Map<String, ArrayList<Integer>> bookPhone = new HashMap<>();
+
+//        bookPhone.addNumber("Ivanov", 123, bookPhone);
+//        addNumber("Ivanov", 1234, bookPhone);
+//        addNumber("Petrov", 546585, bookPhone);
+//        addNumber("Sidorov", 8956477, bookPhone);
+//        addNumber("Ivanov", 12356233, bookPhone);
+//        addNumber("Petrov", 787897, bookPhone);
+//        printBook(bookPhone);
+
+    }
+}
+
+
+
+
+
+
+

@@ -22,11 +22,8 @@ public class Task02 {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 1) {
                 count++;
-                max = max < count ? count : max;
-                // max = Math.max(count, max);
-                // if (max < count) {
-                // max = count;
-                // }
+                max = Math.max(max, count);
+
             } else {
                 count = 0;
             }

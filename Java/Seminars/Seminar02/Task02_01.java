@@ -15,10 +15,12 @@ public class Task02_01 {
         long start = System.currentTimeMillis();
         getAlternatingCharsString(n, c1, c2);
         System.out.println(System.currentTimeMillis() - start);
+        System.out.println(getAlternatingCharsString(n, c1, c2));
 
         start = System.currentTimeMillis();
         getAlternatingCharsSb(n, c1, c2);
         System.out.println(System.currentTimeMillis() - start);
+        System.out.println(getAlternatingCharsString(n, c1, c2));
     }
 
     public static String getAlternatingCharsString(int n, char c1, char c2) {

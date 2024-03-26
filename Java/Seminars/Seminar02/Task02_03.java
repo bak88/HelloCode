@@ -7,16 +7,17 @@ public class Task02_03 {
         // определяет является ли строка палиндромом (возвращает
         // boolean значение).
 
-        String str = "qwertrewq";
+        String str = "qwertrewe";
         System.out.println(isPalindrom(str));
     }
 
     public static boolean isPalindrom(String str) {
 
         for (int i = 0; i < str.length() / 2; i++) {
-            if (str.charAt(i) != str.charAt(str.length() - i -1)){
-                return false;
+            if (str.charAt(i) == str.charAt(str.length() - i - 1)) {
+                continue;
             }
+            return false;
         }
         return true;
     }
