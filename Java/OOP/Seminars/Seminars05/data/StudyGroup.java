@@ -5,9 +5,9 @@ import java.util.List;
 public class StudyGroup {
 
     private Teacher teacher;
-    private List<User> studentList;
+    private List<Student> studentList;
 
-    public StudyGroup(Teacher teacher, List<User> studentList) {
+    public StudyGroup(Teacher teacher, List<Student> studentList) {
         this.teacher = teacher;
         this.studentList = studentList;
     }
@@ -20,11 +20,11 @@ public class StudyGroup {
         this.teacher = teacher;
     }
 
-    public List<User> getStudentList() {
+    public List<Student> getStudentList() {
         return studentList;
     }
 
-    public void setStudentList(List<User> studentList) {
+    public void setStudentList(List<Student> studentList) {
         this.studentList = studentList;
     }
 

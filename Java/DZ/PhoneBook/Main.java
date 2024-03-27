@@ -25,9 +25,12 @@ class PhoneBook {
     }
 
     public void sortBook() {
+        List<Map.Entry<String, ArrayList<Integer>>> sorted = new ArrayList<>(phoneBook.entrySet());
+        sorted.sort((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()));
 
-
-
+        for (Map.Entry<String, ArrayList<Integer>> entry : sorted) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
 
     }
 
@@ -59,16 +62,9 @@ public class Main {
         mainBook.addPhone("Andy", 125);
 
 
-
-
-       mainBook.printBook();
-//       mainBook.sortBook();
-
-
-
-
-
-
+        mainBook.printBook();
+        System.out.println("--------------");
+        mainBook.sortBook();
 
     }
 }

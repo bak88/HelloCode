@@ -8,7 +8,9 @@ import java.util.List;
 public class DataService {
 
     private List<User> userList = new ArrayList<>();
-//    private StudyGroup studyGroup;
+    private List<Teacher> teacherList = new ArrayList<>();
+    private List<Student> studentList = new ArrayList<>();
+
 
     public void create(String fName, String lName, String sName, Type type) {
         int id = getFreeId(type);
@@ -35,11 +37,21 @@ public class DataService {
         return lastId;
     }
 
-    public List<User> getAllStudent() {
-        List<User> result = new ArrayList<>();
+    public List<Student> getAllStudent() {
+        List<Student> result = new ArrayList<>();
         for (User user : userList) {
             if (user instanceof Student) {
-                result.add(user);
+                result.add((Student) user);
+            }
+        }
+        return result;
+    }
+
+    public List<Teacher> getAllTeacher() {
+        List<Teacher> result = new ArrayList<>();
+        for (User user : userList) {
+            if (user instanceof Teacher) {
+                result.add((Teacher) user);
             }
         }
         return result;

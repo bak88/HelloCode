@@ -1,6 +1,7 @@
 package Java.OOP.Seminars.Seminars05.controller;
 
 
+import Java.OOP.Seminars.Seminars05.data.Student;
 import Java.OOP.Seminars.Seminars05.data.Teacher;
 import Java.OOP.Seminars.Seminars05.data.Type;
 import Java.OOP.Seminars.Seminars05.data.User;
@@ -15,6 +16,9 @@ public class Controller {
     private final StudyGroupService dataStudyGroupService = new StudyGroupService();
     private final StudentView studentView = new StudentView();
 
+    private List<Teacher> allTeacher = dataService.getAllTeacher();
+    private List<Student> allStudent = dataService.getAllStudent();
+
     public void createStudent(String fName, String lName, String sName) {
         dataService.create(fName, lName, sName, Type.STUDENT);
     }
@@ -24,19 +28,22 @@ public class Controller {
     }
 
     public void getAllStudent() {
-        List<User> userList = dataService.getAllStudent();
+        List<Student> userList = dataService.getAllStudent();
         for(User user : userList){
             studentView.printOmConsole(user);
         }
     }
 
-    public List<User> getListStudent() {
-        return dataService.getAllStudent();
+    public void getAllTeacher() {
+        List<Teacher> userList = dataService.getAllTeacher();
+        for(User user : userList){
+            studentView.printOmConsole(user);
+        }
     }
 
-
-    public void createStudyGroup(Teacher teacher, List<User> students) {
+    public void createStudyGroup(Teacher teacher, List<Student> students) {
         dataStudyGroupService.createStudyGroup(teacher, students);
+
     }
 
 }
