@@ -8,8 +8,8 @@ import java.util.List;
 public class DataService {
 
     private List<User> userList = new ArrayList<>();
-    private List<Teacher> teacherList = new ArrayList<>();
-    private List<Student> studentList = new ArrayList<>();
+//    private List<Teacher> teacherList = new ArrayList<>();
+//    private List<Student> studentList = new ArrayList<>();
 
 
     public void create(String fName, String lName, String sName, Type type) {
@@ -55,6 +55,16 @@ public class DataService {
             }
         }
         return result;
+    }
+
+    public Teacher getTeacher(){
+        List<Teacher> result = new ArrayList<>();
+        for (User user : userList) {
+            if (user instanceof Teacher) {
+                result.add((Teacher) user);
+            }
+        }
+        return result.getFirst();
     }
 
 }

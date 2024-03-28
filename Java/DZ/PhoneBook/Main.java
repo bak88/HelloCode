@@ -55,11 +55,14 @@ public class Main {
         mainBook.addPhone("Bob", 123124314);
         mainBook.addPhone("Bob", 124343);
         mainBook.addPhone("Bob", 125);
+        mainBook.addPhone("Bob", 12132);
         mainBook.addPhone("Jack", 125);
         mainBook.addPhone("Jack", 124343);
         mainBook.addPhone("Andy", 123124314);
         mainBook.addPhone("Andy", 124343);
         mainBook.addPhone("Andy", 125);
+        mainBook.addPhone("Andy", 12465);
+        mainBook.addPhone("Andy", 12578637);
 
 
         mainBook.printBook();

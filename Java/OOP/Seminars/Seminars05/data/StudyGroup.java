@@ -4,8 +4,8 @@ import java.util.List;
 
 public class StudyGroup {
 
-    private Teacher teacher;
-    private List<Student> studentList;
+    Teacher teacher;
+    List<Student> studentList;
 
     public StudyGroup(Teacher teacher, List<Student> studentList) {
         this.teacher = teacher;
