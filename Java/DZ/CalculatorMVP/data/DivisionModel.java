@@ -1,14 +1,16 @@
-package Java.OOP.Lectures.Lectures04.Ex001;
+package Java.DZ.CalculatorMVP.data;
 
-public class SumModel extends CalcModel {
+import Java.DZ.CalculatorMVP.data.CalcModel;
 
-    public SumModel() {
+public class DivisionModel extends CalcModel {
+
+    public DivisionModel() {
 
     }
 
     @Override
     public double result() {
-        return x + y;
+        return x / y;
     }
 
     @Override

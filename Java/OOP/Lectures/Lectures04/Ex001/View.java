@@ -3,6 +3,7 @@ package Java.OOP.Lectures.Lectures04.Ex001;
 import java.util.Scanner;
 
 public class View {
+
     Scanner in = new Scanner(System.in);
 
     public double getValue(String title){

@@ -1,11 +1,16 @@
-package Java.OOP.Lectures.Lectures04.Ex001;
+package Java.DZ.CalculatorMVP.data;
 
-public class DiffModel extends CalcModel {
+import Java.DZ.CalculatorMVP.data.CalcModel;
 
+public class MultiplicationModel extends CalcModel {
+
+    public MultiplicationModel() {
+
+    }
 
     @Override
     public double result() {
-        return x - y;
+        return x * y;
     }
 
     @Override

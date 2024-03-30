@@ -10,6 +10,13 @@ public class Circle implements Shape {
 
     @Override
     public double perimetr() {
-        return 2 * 3.14 * radius;
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "perimetr=" + perimetr() +
+                '}';
     }
 }

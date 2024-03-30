@@ -2,6 +2,7 @@ package Java.OOP.Seminars.Seminars04.data;
 
 import java.time.LocalDate;
 
+// сделать класс абстрактным принцип открытости-закрытости (OCP)
 public class User {
     private String firstName;
     private String secondName;
@@ -58,7 +59,7 @@ public class User {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { // Вынести в отдельный класс нарушения принципа единственной ответственности (SRP)
         if (this == o) {
             return true;
         }

@@ -12,4 +12,11 @@ public class Square extends QuadRangle{
     double area() {
         return len * len;
     }
+
+    @Override
+    public String toString() {
+        return "Square {" +
+                "len=" + area() +
+                '}';
+    }
 }
