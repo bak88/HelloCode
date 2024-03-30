@@ -17,7 +17,6 @@ public class Presenter {
         this.operation = new Operation();
     }
 
-
     public void buttonClick() {
 
         Log log = new Logger();
@@ -26,6 +25,7 @@ public class Presenter {
 
         double a = view.getValue("Первое число -> ");
         double b = view.getValue("Второе число -> ");
+        model = null;
         while (model == null) {
             str = view.getOperacion("Операция -> ");
             model = operation.Operation(str);
