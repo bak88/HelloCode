@@ -34,7 +34,7 @@ public class Student extends User implements Comparable<Student> {
     }
 
     @Override
-    public int compareTo(Student o) {
+    public int compareTo(Student o) { // Вынести в отдельный класс нарушения принципа единственной ответственности (SRP)
         return this.studentId.compareTo(o.studentId);
     }
 }

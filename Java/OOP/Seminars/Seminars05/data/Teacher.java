@@ -1,6 +1,6 @@
 package Java.OOP.Seminars.Seminars05.data;
 
-public class Teacher extends User{
+public class Teacher extends User {
 
     private int teacherId;
 
@@ -19,8 +19,9 @@ public class Teacher extends User{
 
     @Override
     public String toString() {
-        return "Teacher{" + super.toString() +
+        return "Teacher { " +
                 "teacherId=" + teacherId +
+                super.toString() +
                 '}';
     }
 }

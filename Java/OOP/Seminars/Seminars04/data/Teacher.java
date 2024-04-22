@@ -19,7 +19,7 @@ public class Teacher extends User{
         this.teacherId = teacherId;
     }
 
-    public static class TeacherComparator implements Comparator {
+    public static class TeacherComparator implements Comparator { // Вынести в отдельный класс нарушения принципа единственной ответственности (SRP)
         @Override
         public int compare(Object o1, Object o2) {
             return 0;
