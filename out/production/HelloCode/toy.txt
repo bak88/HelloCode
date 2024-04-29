@@ -1,0 +1,5 @@
+Id: 3, Name: Кукла, Frequency: 6, Random: 96
+Id: 2, Name: Робот, Frequency: 2, Random: 28
+Id: 3, Name: Кукла, Frequency: 6, Random: 88
+Id: 3, Name: Кукла, Frequency: 6, Random: 96
+Id: 3, Name: Кукла, Frequency: 6, Random: 76

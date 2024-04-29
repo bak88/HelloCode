@@ -63,6 +63,10 @@ public class Main {
         try {
             dateFormat.setLenient(false);
             Date date1 = dateFormat.parse(date);
+
+            if (date1.getYear() < 20 || date1.getYear() > 123 ){
+                throw new Exception(date);
+            }
         } catch (Exception e) {
             System.out.println("Не корректная дата рождения");
             throw new Exception(date);
@@ -73,6 +77,7 @@ public class Main {
     }
 
     public static void checkPhone(String phone) {
+
         for (int i = 0; i < phone.length(); i++) {
             try {
                 Integer.parseInt(String.valueOf(phone.charAt(i)));
