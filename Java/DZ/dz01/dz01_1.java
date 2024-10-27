@@ -26,5 +26,6 @@ public class dz01_1 {
             res += i;
         }
         return res;
+    
     }
 }
